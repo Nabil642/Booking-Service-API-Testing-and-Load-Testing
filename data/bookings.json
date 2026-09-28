@@ -1,0 +1,22 @@
+[
+  {
+    "name": "standard stay with breakfast",
+    "payload": { "firstname": "Sara", "lastname": "Ahmed", "totalprice": 250, "depositpaid": true, "bookingdates": { "checkin": "2026-11-01", "checkout": "2026-11-05" }, "additionalneeds": "Breakfast" }
+  },
+  {
+    "name": "free booking with price zero",
+    "payload": { "firstname": "Imran", "lastname": "Hossain", "totalprice": 0, "depositpaid": false, "bookingdates": { "checkin": "2026-12-01", "checkout": "2026-12-02" }, "additionalneeds": "None" }
+  },
+  {
+    "name": "very expensive booking",
+    "payload": { "firstname": "Lina", "lastname": "Khan", "totalprice": 999999, "depositpaid": true, "bookingdates": { "checkin": "2027-01-10", "checkout": "2027-01-20" }, "additionalneeds": "Airport pickup" }
+  },
+  {
+    "name": "names with accents",
+    "payload": { "firstname": "Zoë", "lastname": "Müller", "totalprice": 180, "depositpaid": true, "bookingdates": { "checkin": "2026-11-15", "checkout": "2026-11-18" }, "additionalneeds": "Vegetarian meals" }
+  },
+  {
+    "name": "one night stay, deposit not paid",
+    "payload": { "firstname": "Omar", "lastname": "Faruk", "totalprice": 75, "depositpaid": false, "bookingdates": { "checkin": "2026-11-20", "checkout": "2026-11-21" }, "additionalneeds": "Late checkout" }
+  }
+]

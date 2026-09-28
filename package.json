@@ -1,0 +1,20 @@
+{
+  "name": "restful-booker-api-qa",
+  "version": "1.0.0",
+  "description": "API test suite for Restful-Booker using Playwright, Postman/Newman and JMeter",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test",
+    "report": "playwright show-report",
+    "postman": "newman run postman/restful-booker.postman_collection.json -e postman/restful-booker.postman_environment.json -r cli,htmlextra --reporter-htmlextra-export reports/postman/report.html",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "ajv": "^8.17.0",
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1",
+    "typescript": "^5.5.0"
+  }
+}
